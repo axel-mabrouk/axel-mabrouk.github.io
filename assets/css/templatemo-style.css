@@ -447,11 +447,11 @@ button:hover {
 }
 
 .service-item .first-service-icon {
-    background-image: url(../images/first-white-icon.png);
+    background-image: url(../images/ds_light.png);
 }
 
 .service-item:hover .first-service-icon {
-    background-image: url(../images/first-main-icon.png);
+    background-image: url(../images/ds_dark.png);
 }
 
 .service-item .second-service-icon {
