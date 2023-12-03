@@ -1,8 +1,22 @@
 
 <html lang="en">
+<head>
+  <style>
+      #label {
+      position: absolute;
+      top: 3%;
+      left: 40%;
+      transform: translate(-30%, -30%);
+      font-size: 14px;
+      color: #fff; /* Text color */
+    }
+</style>
+</head>
 <body>
 
-  <div id="3d-container"></div>
+  <div id="my3d-container"; style="border: 2px solid #6dfdf9; padding: 0px">
+     <div id="label">Use the mouse to manipulate the mesh and scroll to zoom.</div>
+  </div>
 
   <script type="importmap">
     {
@@ -65,18 +79,18 @@
     //---------------------- renderer
     renderer = new THREE.WebGLRenderer({alpha: true});
     renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setClearColor(0x000000, 0);
-    const containerWidth = 800;
-    const containerHeight = 800;
+    renderer.setClearColor(0x6dfdf9, 0.04);
+    const containerWidth = 728;
+    const containerHeight = 728;
     renderer.setSize(containerWidth, containerHeight);
-    document.getElementById('3d-container').appendChild(renderer.domElement);
+    document.getElementById('my3d-container').appendChild(renderer.domElement);
 
 
     //---------------------- load scapula mesh
     var mesh = new THREE.Mesh();
     var loader = new STLLoader();
     loader.load('./assets/stl/scapula_ia.stl', function (geometry) {
-      var material = new THREE.MeshStandardMaterial({ color: 0xCCCCFF, roughness: 0.9, metalness: 0.4, wireframe: false, shading: THREE.FlatShading, side:THREE.DoubleSide });
+      var material = new THREE.MeshStandardMaterial({ color: 0xef6bbb, roughness: 0.9, metalness: 0.4, wireframe: false, shading: THREE.FlatShading, side:THREE.DoubleSide });
 
 
     //---------------------- geometry
@@ -123,7 +137,7 @@
     var mesh = new THREE.Mesh();
     var loader = new STLLoader();
     loader.load('./assets/stl/humerus_ia.stl', function (geometry) {
-      var material = new THREE.MeshStandardMaterial({ color: 0x9FE2BF, roughness: 0.9, metalness: 0.4, wireframe: false, shading: THREE.FlatShading, side:THREE.DoubleSide });
+      var material = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.9, metalness: 0.4, wireframe: false, shading: THREE.FlatShading, side:THREE.DoubleSide });
 
 
     //---------------------- geometry
@@ -207,8 +221,8 @@
 
     //---------------------- mous controls
     controls = new OrbitControls(camera, renderer.domElement);
-    controls.enableDamping = true; // an animation loop is required when damping is enabled
-    controls.dampingFactor = 0.75;
+    controls.enableDamping = false; // an animation loop is required when damping is enabled
+    controls.dampingFactor = 0.25;
     controls.screenSpacePanning = false;
     controls.maxPolarAngle = Math.PI / 2;
     controls.target.copy(cameraTarget);
