@@ -7,5 +7,5 @@
 #F08080 : red coral
 #DE3163 : bordeaux
 #900C3F : dark bordeau 
-#581845 : dark purple 
+#581845 : dark purple     = rgba(88, 24, 69, 0.4)
 
