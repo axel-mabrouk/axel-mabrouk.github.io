@@ -1,10 +1,11 @@
-#CCCCFF : move
-#9FE2BF : vert Elo
-#3d7a5a : vert elo foncé
-#40E0D0 : vert bleu
+#CCCCFF : purple
+#9FE2BF : green Elo
+#3d7a5a : dark green elo 
+#40E0D0 : green blue
 #29ABCB : blue axel-elo
 #6495ED : blue axel
-#F08080 : rouge coral
+#F08080 : red coral
 #DE3163 : bordeaux
-#900C3F : bordeau foncé
+#900C3F : dark bordeau 
+#581845 : dark purple 
 

@@ -60,10 +60,17 @@ https://templatemo.com/tm-531-reflux
             </div>
             <nav class="main-nav" role="navigation">
               <ul class="main-menu" style="display: block; padding: 0;">
-                <li><a href="#section1">Portfolio (draft)</a></li>
-                <li><a href="#section2">Expertise</a></li>
+                <li><a href="#section1">Bone segmentation</a></li>
+                <li><a href="#section2">Fast Background subtraction</a></li>
+                <li><a href="#section3">Vehicle segmentation</a></li>
+                <!-- <p>
+                <li><a href="#section4">Mental health chatbot</a></li>
+                <li><a href="#section5">Skin Health Diagnosis</a></li>
+                <li><a href="#section6">MRI image generation</a></li>
+                </p> -->
               </ul>
             </nav>
+            <!-- <p>
             <div class="social-network">
               <ul class="soial-icons" style="display: inline; padding: 0;">
                 <li>
@@ -85,6 +92,7 @@ https://templatemo.com/tm-531-reflux
                 </li>
               </ul>
             </div>
+            </p> -->
             <div class="copyright-text">
               <p>Copyright 2023 Axel Mabrouk</p>
             </div>
@@ -94,58 +102,60 @@ https://templatemo.com/tm-531-reflux
 
       <section class="section about-me" data-section="section1">
         <div class="container">
-          <p style="font-size: 12px;">Last update: November 20, 2022</p>
+
+          <p style="font-size: 12px;">Last update: January 15, 2023</p>
           <div class="section-heading">
-            <h2>Portfolio (draft)</h2>
+            <h2>Portfolio</h2>
             <div class="line-dec"></div>
             <span
-              >"Taming complex data until it reveals its valuable secrets. Bridging intuition and the power of Machine Learning to drive innovation and solve real-world challenges".</span
-            >
+              >"Taming complex data until it reveals its valuable secrets. Bridging intuition and the power of Machine Learning to drive innovation and solve real-world challenges".</span>
           </div>
-
-
-
-
-          <div class="right-image-post">
+          <img style="margin-top: -1000x;" src="assets/images/bkgd/header3_.png" alt="" />
+          <!-- ============================================================== project One -->
+           <div class="right-image-post">
             <div class="row">
               <div class="row">
-                <div class="left-image">
-                  <img src="assets/images/gmm.png" alt="" />
-                </div>
+                <div class="right-text">
+                  <h4>3D bone segmentation using Multi-Branch Convolutional Neural Networks</h4>
+                </div>                       
+
+                <iframe src="showstl.html" frameborder="0" width="100%" height="800"></iframe>
               </div>
               <div class="row">
                 <div class="right-text">
-                  <h4>3D bone segmentation using Convolutional Neural Networks</h4>
                   <p>
-                    Project description
+                    The aim of this innovative project is to automatically segment 3D bone structures (scapula and humerus) from CT images in order to be used in computer-assisted surgery. The major challenges being the variety of anomalies that can be encountered during the processing of medical images such as: variable geometric aspects, the presence of noise and other disturbances such as artifacts due to metal implants.
                   </p>
+                <div class="left-image">
+                  <img src="assets/images/bone_seg.png" alt="" />
+                </div>
+                  <p>Project milestones:</p>
+                  <ul style="list-style: disc; display: block; padding: 10;">
+                    <li>Data collection, pre-processing and analysis (EDA)</li>
+                    <li>Study of DICOMs and detection of anomalies (metal implants, noise etc.)</li>
+                    <li>State of the art on existing segmentation methods</li>
+                    <li>Design and training of Multi-Branch CNNs for bone segmentation</li>
+                    <li>Evaluation, optimization and deployment of models</li>
+                  </ul>
+                  <p> 
+                    The outcomes achieved on the test dataset demonstrate considerable promise and surpass the current state-of-the-art results. Consequently, these findings are presently undergoing the publication process, the reason why they are not included in this portfolio at the present juncture.
+                  </p>
+                  <!-- <p>
+                  <p> 
+                  The results obtained on the test dataset show that <b><span style="color: rgb(144, 238, 144);">97%</span></b> of the vertices are located less than <b><span style="color: rgb(144, 238, 144);">1mm</span></b> away from the ground truth. </p>
+                  </p> -->
 
-					<ul style="list-style: disc; display: block; padding: 10;">
-					  <li>first item</li>
-					  <li>second item</li>
-					  <li>third item</li>
-					</ul>
-					<figure>
-						<img src="assets/images/bgs1.png" alt="Example Image">
-						<!-- The figcaption element contains the legend or caption -->
-						<figcaption>Fig.1: This is the legend or caption for the example image.</figcaption>
-					</figure>
 					<p> Used packages:</p>
 					<ul style="display: inline; padding: 0; line-height: 60px;">
 				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/keras.png" alt="Icon 1"></li>
 				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/tf.png" alt="Icon 2"></li>
 				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/numpy.png" alt="Icon 3"></li>
 				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/dicom.png" alt="Icon 4"></li>
-				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/c.png" alt="Icon 5"></li>
 				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/c++.png" alt="Icon 6"></li>
-				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/opencv.png" alt="Icon 7"></li>
 				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/cuda.png" alt="Icon 8"></li>
-				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/linux.png" alt="Icon 9"></li>
 				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/matplotlib.png" alt="Icon 10"></li>
 				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/ml.png" alt="Icon 11"></li>
-				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/jupyter.png" alt="Icon 12"></li>
 				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/vss.png" alt="Icon 13"></li>
-				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/openmp.png" alt="Icon 13"></li>
 				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/python.png" alt="Icon 13"></li>
 				        <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/pycharm.png" alt="Icon 13"></li>
 				        <!-- Add more <li> elements for additional icons -->
@@ -155,13 +165,122 @@ https://templatemo.com/tm-531-reflux
               </div>
             </div>
           </div>
+        </div>
+      </section>
 
 
+      <section class="section about-me" data-section="section2">
+        <div class="container">
+
+          <!-- ============================================================== project 3 -->
+           <div class="right-image-post">
+            <div class="row">
+              <div class="row">
+                <div class="right-text">
+                  <h4>Fast and accurate background subtraction using Compressed Sensing on GPU</h4>
+                </div>
+                <div class="left-image">
+                  <img src="assets/images/compressed_sensing.png" alt="" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="right-text">
+                  <p>
+                    Mixture of Gaussians (MoG) and compressive sensing (CS) are two common approaches in many image and audio processing systems. The combination of these algorithms is recently used for the compressive background subtraction task. Nevertheless, the result of this combination has not been exploited to take advantage of the evolution of parallel computing architectures. In this work we propose an efficient strategy to implement CS-MoG on heterogeneous CPU–GPU computing platforms by ensuring the better acceleration and accuracy that can be achieved for this algorithm on both CPU and GPU processors. 
+                  </p>
+                  <p>
+                    The obtained results of the improved CS-MoG are more accurate and performant than other published MoG implementations. Thus, the research endeavor conducted during this project yielded four scientific publications:
+                  </p>
+                  <ul style="list-style: disc; display: block; padding: 10;">
+                    <li>  <a style="color: #29ABFF;" href="https://link.springer.com/article/10.1007/s11554-019-00916-4"> Mabrouk, L. et al. "Efficient adaptive load balancing approach for compressive background subtraction algorithm on heterogeneous CPU–GPU platforms". J Real-Time Image Proc 17, 1567–1583 (2020).</a> </li>
+                    <li>  <a style="color: #29ABFF;" href="https://ieeexplore.ieee.org/abstract/document/8364449"> Mabrouk, L. et al. "Efficient parallelization of GMM background subtraction algorithm on a multi-core platform for moving objects detection," 2018 4th International Conference on Advanced Technologies for Signal and Image Processing (ATSIP), Sousse, Tunisia, 2018.</a> </li>
+                    <li>  <a style="color: #29ABFF;" href="https://link.springer.com/chapter/10.1007/978-981-13-1405-6_16"> Mabrouk, L. et al. "Performance and Scalability Improvement of GMM Background Segmentation Algorithm on Multi-core Parallel Platforms". Springer Singapore 2019 </a> </li>
+                    <li>  <a style="color: #29ABFF;" href="https://ieeexplore.ieee.org/abstract/document/8596385"> Mabrouk, L. et al. "Single Core SIMD Parallelization of GMM Background Subtraction Algorithm for Vehicles Detection," 2018 IEEE 5th International Congress on Information Science and Technology (CiSt), Marrakech, Morocco, 2018 </a> </li>
+                  </ul>
+                  <!-- <p>
+                  <p> 
+                  The results obtained on the test dataset show that <b><span style="color: rgb(144, 238, 144);">97%</span></b> of the vertices are located less than <b><span style="color: rgb(144, 238, 144);">1mm</span></b> away from the ground truth. </p>
+                  </p> -->
+          <figure>
+            <img src="assets/images/cs_mog_.png" alt="Example Image">
+            <!-- The figcaption element contains the legend or caption -->
+            <figcaption>Fig.1: Improved performance and accuracy of four versions of MoG (Mixture Of Gaussians) using Compressed Sensing (CS) on GPU: results are averaged over five completely different datasets from CDnet 2014.</figcaption>
+          </figure>
+          <p> Used packages:</p>
+          <ul style="display: inline; padding: 0; line-height: 60px;">
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/c.png" alt="Icon 5"></li>
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/c++.png" alt="Icon 6"></li>
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/opencv.png" alt="Icon 7"></li>
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/cuda.png" alt="Icon 8"></li>
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/linux.png" alt="Icon 9"></li>
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/openmp.png" alt="Icon 13"></li>
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/python.png" alt="Icon 13"></li>
+                <!-- Add more <li> elements for additional icons -->
+            </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </section>
 
-      <section class="section my-services" data-section="section2">
+      <section class="section about-me" data-section="section3">
+        <div class="container">
+
+          <!-- ============================================================== project two -->
+           <div class="right-image-post">
+            <div class="row">
+              <div class="row">
+                <div class="right-text">
+                  <h4>Vehicle segmentation using Convolutional Neural Networks on spatio-temporal images</h4>
+                </div>
+                <div class="left-image">
+                  <img src="assets/images/vehicle_seg.png" alt="" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="right-text">
+                  <p>
+                   Many methods have been proposed over the past decades for foreground extraction as it constitutes a fundamental prerequisite for multiple object tracking and recognition applications. Nonetheless, this remains a challenging task due to multiple obstacles, including variations in illumination, camera jitter, dynamic backgrounds, and shadows. The objective of this project is to exploit, on the one hand, the potential of these methods, in particular the Mixture of Gaussians to extract scene characteristics over time windows; and on the other hand the use of CNNs to extract spatial characteristics.
+
+                  </p>
+                  <p>Project milestones:</p>
+                  <ul style="list-style: disc; display: block; padding: 10;">
+                    <li>Study of recent object detection techniques: Yolo, Vibe, CNT, KNN, MoG etc</li>
+                    <li>Design of a hybrid CNN model by exploiting spatio-temporal data</li>
+                    <li>Model training, evaluation and optimization</li>
+                  </ul>
+                  <p> 
+                    Using the <a style="color: #29ABFF;" href="https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient"> Dice</a> as a metric, the results show that the latter goes from <b><span style="color: rgb(244, 138, 144);">92%</span> using MoG only, and <b><span style="color: rgb(244, 238, 144);">95.5%</span> using CNNs (unet) only to <b><span style="color: rgb(144, 238, 144);">98.3%</span> combining the two.</p>
+                  <!-- <p>
+                  <p> 
+                  The results obtained on the test dataset show that <b><span style="color: rgb(144, 238, 144);">97%</span></b> of the vertices are located less than <b><span style="color: rgb(144, 238, 144);">1mm</span></b> away from the ground truth. </p>
+                  </p> -->
+          <p> Used packages:</p>
+          <ul style="display: inline; padding: 0; line-height: 60px;">
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/python.png" alt="Icon 13"></li>
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/keras.png" alt="Icon 1"></li>
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/tf.png" alt="Icon 2"></li>
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/cuda.png" alt="Icon 8"></li>
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/jupyter.png" alt="Icon 10"></li>
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/ml.png" alt="Icon 11"></li>
+                <li style="list-style: none; display: inline-block;"><img class="icon" src="assets/images/icons/linux.png" alt="Icon 13"></li>
+                <!-- Add more <li> elements for additional icons -->
+            </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- <p>
+
+      <section class="section my-services" data-section="section3">
         <div class="container">
           <div class="section-heading">
             <h2>Expertise</h2>
@@ -229,9 +348,10 @@ https://templatemo.com/tm-531-reflux
         </div>
       </section>
     </div>
+    </p> -->
 
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
+
+     
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -289,5 +409,8 @@ https://templatemo.com/tm-531-reflux
         checkSection();
       });
     </script>
+
+    
+
   </body>
 </html>
